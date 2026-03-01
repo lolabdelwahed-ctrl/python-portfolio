@@ -2,12 +2,9 @@
 # Purpose: This project was created to help me understand what went into calculating my final grade every time i calculated it when stressing over exams
 # Final grade calculator
 
-current = 0
-target = 0
-final_weight = 0
 
 def fin_grade(current,target,final_weight):
-  user_final_weight = user_final_weight/100
+  final_weight = user_final_weight/100
   final_score_req = (target-(current*(1-final_weight)))/final_weight
   return final_score_req
 
