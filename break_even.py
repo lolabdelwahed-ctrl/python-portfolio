@@ -16,6 +16,7 @@ user_unit_cost = float(input('What is the cost per unit '))
 
 units_required = break_even(user_fixed_cost, user_selling_price, user_unit_cost)
 
+# Note: Logic below was NOT of my own creation but was created with the help of a friend
 if type(units_required) == str:
     print (units_required)
 else:
