@@ -1,2 +1,2 @@
-# python-portfolio
-python project portfolio showcasing problem-solving and development
+# Python-portfolio
+Python project portfolio showcasing problem-solving and development
